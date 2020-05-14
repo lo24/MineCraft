@@ -7,7 +7,6 @@ Simple Minecraft-inspired demo written in Python and Pyglet.
 
 ```shell
 pip install pyglet
-git clone https://github.com/fogleman/Minecraft.git
 cd Minecraft
 python main.py
 ```
