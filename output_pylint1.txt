@@ -1,8 +1,0 @@
-************* Module main
-main.py:437:0: R0902: Too many instance attributes (13/7) (too-many-instance-attributes)
-main.py:656:23: R1714: Consider merging these comparisons with "in" to 'face in ((0, -1, 0), (0, 1, 0))' (consider-using-in)
-main.py:848:16: W0212: Access to a protected member _shown of a client class (protected-access)
-
-------------------------------------------------------------------
-Your code has been rated at 9.93/10 (previous run: 9.90/10, +0.02)
-
