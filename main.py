@@ -126,7 +126,7 @@ def sectorize(position):
     return (x, 0, z)
 
 
-class Model(object):
+class Model():
 
     def __init__(self):
 
@@ -648,7 +648,7 @@ class Window(pyglet.window.Window):
                     if tuple(op) not in self.model.world:
                         continue
                     p[i] -= (d - pad) * face[i]
-                    if face == (0, -1, 0) or face == (0, 1, 0):
+                    if face in [(0, -1, 0), (0, 1, 0)]:
                         # You are colliding with the ground or ceiling, so stop
                         # falling / rising.
                         self.dy = 0
